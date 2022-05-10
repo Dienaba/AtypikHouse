@@ -1,0 +1,14 @@
+<?php
+/**
+* Project F2I / AtypikHouse 
+* Vasylyshyn Roman
+* Dienaba Camara
+* Issa Barry
+* Cedric HIHEGLO HODEWA
+ */
+use Illuminate\Support\Facades\Route;
+
+Route::get('/','ContactController@index')->name('contact.admin.index');
+Route::post('/bulkEdit','ContactController@bulkEdit')->name('contact.admin.bulkEdit');
+
+Route::get('getForSelect2','ContactController@getForSelect2')->name('contact.admin.getForSelect2');

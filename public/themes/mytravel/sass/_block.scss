@@ -1,0 +1,150 @@
+.bravo_wrap {
+       //Blocks
+       .page-template-content{
+
+           //Home AtypikHouse
+           .bravo-list-space{
+
+           }
+           .bravo-form-search-space{
+
+           }
+           .bravo-featured-box{
+               background: #f2f2f2;
+               .title{
+                   margin-top: 15px;
+                   font-size: 28px;
+                   font-weight: 500;
+                   @media(max-width: 766px){
+                       font-size: 24px;
+                   }
+               }
+               .sub-title{
+                   color: #5e6d77;
+                   font-size: 14px;
+                   margin-bottom: 15px;
+               }
+               a{
+                   text-decoration: none;
+               }
+               .featured-item{
+                   background: #fff;
+                   text-align: center;
+                   padding: 20px;
+                   margin: 15px 0;
+                   .text{
+                       margin-top: 20px;
+                       font-size: 14px;
+                       font-weight: 500;
+                       color: #1A2B48;
+                   }
+                   img{
+                       transition: all 0.3s;
+                       max-width: 100%;
+                   }
+                   &:hover{
+                       img{
+                           transform: scale(1.1);
+                       }
+                   }
+               }
+           }
+           
+
+           //Other
+           .bravo-list-news{
+                .js-prev:hover{
+                    color: #fff !important;
+                }
+           }
+
+           .bravo-vendor-form-register{
+               h1{
+                   font-size: 2rem;
+               }
+           }
+
+
+       //Contact
+       .bravo-contact-block{
+           .bravo-contact-block-form {
+               .text-danger {
+                   border: solid 1px #dc3545;
+                   display: block;
+                   padding: 10px;
+                   border-radius: 5px;
+               }
+
+               .text-success {
+                   border: solid 1px #28a745;
+                   display: block;
+                   padding: 10px;
+                   border-radius: 5px;
+               }
+
+               .submit {
+                   width: 100%;
+               }
+
+               .fa-spinner {
+                   display: none;
+               }
+
+               &.loading {
+                   .fa-spinner {
+                       display: inline-block;
+                   }
+               }
+           }
+       }
+
+       .bravo-list-item{
+           .topbar-search{
+               display: flex;
+               align-items: center;
+               .control{
+                   flex: 1 1 55%;
+                   color: #1A2B48;
+                   text-align: right;
+                   display: flex;
+                   align-items: center;
+                   justify-content: flex-end;
+                   a{
+                       color: #1A2B48;
+                       text-decoration: none;
+                       cursor: pointer;
+                   }
+                   .item{
+                       display: flex;
+                       align-items: center;
+                       margin-left: 5px;
+                       padding-left: 5px;
+                       border-left: solid 1px #a7a7a7;
+                       &:first-child{
+                           border: none;
+                       }
+                       .item-title{
+                           line-height: normal;
+                       }
+                       .dropdown{
+                           margin-left: 10px;
+                           .dropdown-toggle{
+                               padding: 7px 15px;
+                               border: solid 1px #CCc;
+                               border-radius: 0.188rem;
+                           }
+                           .dropdown-item{
+                               color: #000;
+                               font-size: 14px;
+                           }
+                       }
+                       .dropdown-toggle::after{
+                           top: 2px;
+                           position: relative;
+                       }
+                   }
+               }
+           }
+       }
+    }
+   }
