@@ -14,12 +14,12 @@ Vous pouvez dès à présent lancer le site
 
 1. composer install / composer update
 2. php artisan serve
-3. Aller sur le lien : http://127.0.0.1:8000/ de votre navigateur
-(Si problème) Si l'erreur 'symlink(): No such file or directory' apparait sur votre page veuillez suivre les indication suivante :
-    Ouvrir un terminal à la racine du projet et tapez les commandes suivante :
-        cd public
-        rm -r storage
-        cd ..
-        php artisan storage:link
-    Relancer le serve : php artisan serve
+3. Aller sur le lien : http://127.0.0.1:8000/ de votre navigateur  
+(Si problème) Si l'erreur **symlink(): No such file or directory** apparait sur votre page veuillez suivre les indication suivante :
+    Ouvrir un terminal à la racine du projet et tapez les commandes suivante :  
+    - cd public  
+    - rm -r storage  
+    - cd ..  
+    - php artisan storage:link  
+Relancer le serve : php artisan serve
 
